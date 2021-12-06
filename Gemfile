@@ -1,2 +1,2 @@
 source 'https://rubygems.org' 
-gem "fastlane"
+gemspec path: File.expand_path("/Users/enrgar/Developer/tools/fastlane")

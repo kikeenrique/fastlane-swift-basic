@@ -10,7 +10,8 @@ import Foundation
 
 class Fastfile: LaneFile {
 	func customLane() {
-	desc("Description of what the lane does")
+	desc("Description of what the lane does now")
 		// add actions here: https://docs.fastlane.tools/actions
+        sh(command: "ls -la", log: true)
 	}
 }
